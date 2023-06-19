@@ -28,3 +28,13 @@ a{
 }
 
 
+/* Header notice Css */
+.header_notice {
+    background: rgb(2,3,129);
+}
+.header_notice p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0;
+}
