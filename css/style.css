@@ -38,3 +38,45 @@ a{
     font-size: 14px;
     padding: 10px 0;
 }
+
+/* Header Top CSS */
+.headerTopContainer{
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_top .menu_items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header_top .menu_items a {
+    color: #464141f5;
+    font-size: 13px;
+}
+.header_top .header_slogan {
+    display: flex;
+    gap: 10px;
+}
+.header_top .header_slogan p, .header_top .header_slogan span, .header_top .header_contact span {
+    font-size: 13px;
+    color: #464141f5;
+}
+.header_top .header_contact {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header_top .header_contact a {
+    font-size: 13px;
+    color: #464141f5;
+}
+.header_top .header_contact span .contactNumber {
+    font-size: 13px;
+    font-weight: bold;
+    color: #38acdb;
+}
